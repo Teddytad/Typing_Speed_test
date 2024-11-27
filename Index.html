@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat the Turtle</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking CSS file -->
+</head>
+<body>
+    <header>
+        <div class="title">Beat the Turtle</div>
+        <img class= "png" src="C:\Users\tbela\OneDrive - California State University, Northridge\3rd Year\CIT 384\Typing speed\Front-end\logo.png" alt="">
+    </header>
+
+    <!-- Rest of your content like typing speed test -->
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <p id="test-text">The quick brown fox jumps over the lazy dog.</p>
+        <textarea id="typing-area" placeholder="Start typing here..."></textarea>
+        <div class="stats">
+            <span id="timer">Time: 60s</span>
+            <span id="wpm">WPM: 0</span>
+            <span id="accuracy">Accuracy: 100%</span>
+        </div>
+        <button id="restart-btn" onclick="restartTest()">Restart</button>
+    </div>
+
+    <script src="script.js"></script> <!-- Linking JavaScript file -->
+</body>
+</html>
